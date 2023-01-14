@@ -260,3 +260,79 @@ body{
     color: #424242;
 }
 /* media-quary */
+@media (max-width: 576px) {
+    .logo{
+        font-size: 22px;
+    }
+    .navbar-list{
+        gap: 1rem;
+    }
+    .navbar-list li a {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .banner-content h2{
+        font-size: 32px;
+    }
+    .feature-section{
+        flex-direction: column-reverse;
+    }
+    .feature-image{
+        width: 100%;
+    }
+    .feature-content{
+        width: 100%;
+    }
+    .feature-content h2 {
+        font-size: 24px !important;
+    }
+    .main-btn {
+        padding: 10px;
+        font-weight: 500;
+        font-size: 16px;
+    }
+    .enjoy-section {
+        flex-direction: column;
+    }
+    .enjoy-content {
+        width: 100%;
+    }
+    .enjoy-title {
+        font-size: 24px;
+    }
+    .enjoy-image {
+        width: 100%;
+    }
+    .experience-btn {
+        left: 115px;
+        width: 180px;
+    }
+    .experience-btn h2 {
+        font-size: 25px;
+    }
+    .experience-btn p {
+        font-size: 16px;
+    }
+    .facts-items {
+        flex-wrap: wrap;
+        gap: 4%;
+    }
+    .fact-item h3 {
+        font-size: 22px;
+    }
+    .some-title {
+        font-size: 24px;
+    }
+    .fact-item {
+        width: 48%;
+        margin-bottom: 15px;
+    }
+    .sponsor-content h2 {
+        font-size: 24px;
+    }
+    .sponsor-items {
+        text-align: center;
+        grid-row-gap: 30px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
