@@ -247,6 +247,82 @@ body{
     grid-template-columns: repeat(5, 1fr);
     padding: 20px 0;
 }
+/*================ contact-section-style =======================*/
+.contact-us{
+    background-color: #FF900E;
+    width: 100%;
+    padding: 25px 0;
+}
+.content-items{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 4%;
+}
+.contact-content{
+    width: 48%;
+}
+.call-us{
+    margin-bottom: 15px;
+}
+.call-us span{
+    color: #727272;
+    font-size: 18px;
+    font-weight: 500;
+}
+.call-us p{
+    color: #727272;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 5px;
+}
+.contact-form{
+    width: 48%;
+}
+.contact-form h2{
+    font-size: 32px;
+    font-weight: 600;
+    color: #727272;
+    margin-bottom: 20px;
+}
+input:focus{
+    outline: 0;
+}
+textarea:focus{
+    outline: 0;
+}
+.contact-form input[type="text"]{
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #131313;
+}
+.contact-form input[type="email"]{
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #131313;
+}
+.contact-form textarea{
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #131313;
+}
+.contact-form input[type="submit"]{
+    border: 2px solid #131313;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: transparent;
+}
 /*================ footer-section-style ========================*/
 .footer{
     width: 100%;
