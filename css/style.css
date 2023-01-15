@@ -37,6 +37,9 @@ body{
     font-weight: 500;
     color: #424242;
 }
+.responsive-bar{
+    display: none;
+}
 .banner{
     width: 90%;
     margin: 0 auto;
@@ -343,12 +346,11 @@ textarea:focus{
     .logo{
         font-size: 22px;
     }
-    .navbar-list{
-        gap: 1rem;
+    .navbar{
+        display: none;
     }
-    .navbar-list li a {
-        font-size: 16px;
-        font-weight: 400;
+    .responsive-bar{
+        display: block;
     }
     .banner-content h2{
         font-size: 32px;
@@ -413,5 +415,17 @@ textarea:focus{
         text-align: center;
         grid-row-gap: 30px;
         grid-template-columns: repeat(2, 1fr);
+    }
+    .sponsor-items img{
+        width: 150px;
+    }
+    .content-items {
+        flex-direction: column;
+    }
+    .contact-content {
+        width: 100%;
+    }
+    .contact-form{
+        width: 100%;
     }
 }
