@@ -7,6 +7,7 @@
 body{
     font-family: 'Work Sans', sans-serif;
 }
+/*================ header-style-start ========================*/
 .header{
     background-color: #FF900E1A;
 }
@@ -72,7 +73,7 @@ body{
 .banner-image img{
     width: 100%;
 }
-
+/*======================== feature-section-style ============================*/
 .feature-section{
     display: flex;
     gap: 40px;
@@ -112,7 +113,7 @@ body{
     color: #727272;
     margin: 15px 0;
 }
-
+/*==================== enjoy-section =======================*/
 .enjoy-section{
     width: 90%;
     margin: 0 auto;
@@ -179,7 +180,7 @@ body{
     font-size: 25px;
     color: #FFFFFF;
 }
-
+/*==================== some-facts-style ======================*/
 .some-facts-section{
     width: 90%;
     margin: 0 auto;
@@ -222,7 +223,7 @@ body{
     font-weight: 400;
     color: #727272;
 }
-
+/*================ sponsor-section-style ===================*/
 .sponsor-section{
     width: 90%;
     margin: 0 auto;
@@ -246,7 +247,7 @@ body{
     grid-template-columns: repeat(5, 1fr);
     padding: 20px 0;
 }
-
+/*================ footer-section-style ========================*/
 .footer{
     width: 100%;
     margin: 0 auto;
@@ -259,6 +260,8 @@ body{
     font-weight: 400;
     color: #424242;
 }
+
+
 /* media-quary */
 @media (max-width: 576px) {
     .logo{
